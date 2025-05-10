@@ -4,7 +4,7 @@ extends Node2D
 class_name HealthController
 
 @export_group("Health")
-@export var max_hp := 20 ## If an health_bar is set, this is the value that corresponds to the health_bar completely full.
+@export var max_hp := 25 ## If an health_bar is set, this is the value that corresponds to the health_bar completely full.
 @export var recovery_time := 1.0 ## The waiting time before changing the HP again.
 @export var immortal := false ## Avoids reducing HP.
 @export var health_bar: PackedScene ## A PackedScene that displays the HP.
